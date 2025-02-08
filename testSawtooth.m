@@ -1,4 +1,6 @@
-clear all, close all, clc
+clearvars
+close all
+clc
 
 sawtooth = 61:65;
 x = repmat(sawtooth,1,10); x = x(:);
